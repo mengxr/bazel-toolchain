@@ -43,6 +43,7 @@ cc_toolchain_suite(
         "darwin|clang": ":cc-clang-darwin",
         "k8": ":cc-clang-linux",
         "darwin": ":cc-clang-darwin",
+        "darwin_arm64": ":cc-clang-darwin",
         %{extra_toolchains_for_toolchain_suite}
     },
 )
